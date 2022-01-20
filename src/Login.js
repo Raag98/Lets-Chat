@@ -5,7 +5,7 @@ import firebase from 'firebase/app';
 import { auth } from './firebase';
 import './Login.css';
 
-const Login = () => {
+function Login() {
     return (
         <div className="login-page">
             <div className="login-card">
